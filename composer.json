@@ -1,0 +1,38 @@
+{
+    "name": "machengjun/jwt-auth",
+    "description": "JSON Web Token Authentication for thinkphp",
+    "keywords": [
+        "auth",
+        "authentication",
+        "json web token",
+        "jwt",
+        "thinkphp"
+    ],
+    "homepage": "https://coding.net/u/mcj/p/tp-jwt-auth",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "machengjun",
+            "email": "1256182135@qq.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "firebase/php-jwt": "^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Machengjun\\JWTAuth\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": " 4.8.35",
+        "topthink/framework": "^5.1"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Machengjun\\JWTAuth\\Test\\": "tests/"
+        }
+    }
+}
